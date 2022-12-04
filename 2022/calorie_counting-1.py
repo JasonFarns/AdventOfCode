@@ -20,7 +20,7 @@ def main():
 
     #filename = "aoc_2022_input_1-test.txt"
     filename = "aoc_2022_input_1.txt"
-    input_file = os.path.join("C:\\", "Users", "Jason", "Google Drive", "Geek Stuff", "Python code", "advent_of_code_2022", filename)
+    input_file = os.path.join("C:\\", "Users", "Jason", "Google Drive", "Geek Stuff", "Python code", "AdventOfCode", "2022", filename)
     input_data = []
     
     with open(input_file) as filereader:
