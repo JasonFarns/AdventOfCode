@@ -16,6 +16,7 @@ def get_calorie_totals(calories_array):
 
     return totals
 
+
 def main():
 
     #filename = "aoc_2022_input_1-test.txt"
