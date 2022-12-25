@@ -102,8 +102,9 @@ def print_grid(grid,steps):
 
 def main():
 
-    #input_file = "input11-test.txt"
-    input_file = "input11.txt"
+    #filename = "input11-test.txt"
+    filename = "input11.txt"
+    input_file = os.path.join("C:\\", "Users", "Jason", "Google Drive", "Geek Stuff", "Python code", "AdventOfCode", "2021", filename)
     input_data = []
     
     with open(input_file) as filereader:
