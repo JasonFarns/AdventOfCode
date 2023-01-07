@@ -52,8 +52,9 @@ def create_matrix(grid, N):
 
 def main():
 
-    #input_file = "input15-test.txt"
-    input_file = "input15.txt"
+    #filename = "input15-test.txt"
+    filename = "input15.txt"
+    input_file = os.path.join("C:\\", "Users", "Jason", "Google Drive", "Geek Stuff", "Python code", "AdventOfCode", "2021", filename)
     input_data = []
     
     with open(input_file) as filereader:
